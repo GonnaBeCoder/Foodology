@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodology</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: #f9f9f9; /* Light beige background */
+            
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(144deg, #95e865, #5dbdf1 50%, #d7d943); /* Hickory Brown */
+            color: #fff;
+            height: 100px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .logo img {
+            height: 150px;
+            width: 150px;
+            padding-left: 30px;
+            border:none;
+            margin:none;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #d2b1a3; /* Tea Rose */
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px;
+            background: linear-gradient(to bottom, #e1c6c6, #f4e4e4); /* Pink Vanilla & Rose Quartz */
+            color: #3a3a3a;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-family: 'Lora', serif;
+            color: #4a3b29; /* Dark Hickory Brown */
+        }
+
+        .hero .content-box {
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 800px;
+            background: #fff;
+            color: #333;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        .search-bar {
+            margin: 20px auto;
+            max-width: 600px;
+            display: flex;
+        }
+
+        .search-bar input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #6b4f3b; /* Hickory Brown */
+            border-radius: 8px 0 0 8px;
+            font-size: 1rem;
+        }
+
+        .search-bar button {
+            padding: 12px;
+            border: none;
+            background: #3b5066; /* Navy */
+            color: white;
+            border-radius: 0 8px 8px 0;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .search-bar button:active {
+            background: #2f4054; /* Darker Navy */
+        }
+
+        /* Features Section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f9f9f9;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+
+        .feature-card h3 {
+            color: #3a3a3a;
+            margin-bottom: 15px;
+        }
+
+        /* FAQs Section */
+        .faqs {
+            padding: 40px;
+            background: #d4d5d6; /* Light lavender */
+        }
+
+        .faqs h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #3b5066; /* Navy */
+        }
+
+        .faq {
+            margin-bottom: 20px;
+        }
+
+        .faq h3 {
+            color: #3b5066;
+            cursor: pointer;
+        }
+
+        .faq p {
+            display: none;
+            margin-top: 10px;
+            color: #3a3a3a;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 50px;
+            background: #ffffff;
+            color: #333;
+        }
+
+        .contact a {
+            display: block;
+            margin: 12px 0;
+            color: #6b4f3b; /* Hickory Brown */
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #2f4054; /* Darker Navy */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #3b5066; /* Navy */
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="GW-Generated-Image 3.png" alt="Foodology Logo">
+            
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+            <a href="#faqs">FAQs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Foodology</h1>
+        <div class="content-box">
+            <p>Explore the nutritional values of your favorite dishes and plan your diet with ease.</p>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search food items...">
+            <button>Search</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="feature-card">
+            <h3>Calorie Calculator</h3>
+            <p>Get precise calorie counts for any food item.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Diet Plans</h3>
+            <p>Personalized plans for various health conditions.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Food Insights</h3>
+            <p>Detailed nutritional breakdowns for your meals.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Meal Planner</h3>
+            <p>Organize your meals with ease.</p>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faqs" class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <h3>What is Foodology?</h3>
+            <p>Foodology is your go-to platform for nutritional information and diet planning.</p>
+        </div>
+        <div class="faq">
+            <h3>How accurate is the data?</h3>
+            <p>We source our data from trusted databases like USDA and Indian Food Composition Tables.</p>
+        </div>
+        <div class="faq">
+            <h3>Can I get personalized recommendations?</h3>
+            <p>Yes! Our platform offers customized diet plans based on your needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us:</p>
+        <a href="mailto:info@foodology.com">info@foodology.com</a>
+        <a href="tel:+123456789">+123 456 789</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Foodology. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // FAQ Toggle Functionality
+        document.querySelectorAll('.faq h3').forEach((faqHeader) => {
+            faqHeader.addEventListener('click', () => {
+                const faqContent = faqHeader.nextElementSibling;
+                faqContent.style.display = faqContent.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
