@@ -121,11 +121,15 @@ Benefits: This encourages users to make the most of their available ingredients 
 **Benefits**: This creates a revenue stream while offering users additional value and support in their nutritional journeys. 
 
 # Technical Specifications: 
+
 **Tech Stack**: The proposed system will be developed using modern web technologies such as HTML, CSS, JavaScript (React for the frontend), and Flask for the backend.
+
 A relational database (e.g., PostgreSQL) will store user data, recipes, and nutritional information. 
+
 **APIs:** The integration of external nutrition APIs (like Edamam or Spoonacular) will provide accurate data for recipes and food items. 
+
 **User Interface:** Emphasizing an engaging and aesthetic design, the platform will feature a vintage Lana Del Rey theme to enhance user experience and retention. 
 
-**Conclusion** 
+# Conclusion
 
 The proposed system, Foodology, combines innovative technology, usercentered design, and community engagement to create a comprehensive platform for nutrition management. By addressing the limitations of existing systems, Foodology aims to empower users to take control of their dietary choices and improve their health through personalized, effective solutions.
