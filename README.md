@@ -1,8 +1,12 @@
 # Foodology
 Submitted by :- Ch.Badrinath Reddy ~ 22FE1A4208 (HTML , CSS , JSS Expert)
+                
                 K.Yogitha ~ 22FE1A4221 (Team Lead)
+                
                 R.Sasikanth ~ 22FE1A4241
+                
                 M.Yaswanth ~ 22FE1A4226
+                
 Students of Vignan's lara institute of technology and sciences.
 
 **Introduction to Foodology**
