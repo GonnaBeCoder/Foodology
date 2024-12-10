@@ -1,5 +1,5 @@
 # Foodology
-**Introduction to Foodology**
+# Introduction to Foodology
 Foodology is a web platform designed to help users make informed dietary choices by providing detailed nutritional information, personalized diet plans, and interactive tools. The website caters to individuals with specific health conditions and it offers data on calories, proteins, fats, carbohydrates, and other essential nutrients for various food items. In addition, users can access tailored diet plans to meet their specific health goals, such as weight loss, muscle gain, or managing medical conditions. 
 The platform aims to educate and empower users to maintain a balanced diet, stay healthy, and make better food choices through innovative and user-friendly features. 
 
