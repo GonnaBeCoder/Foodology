@@ -74,7 +74,7 @@ Limited User Engagement Features: Existing systems do not emphasize community in
 No AI-Powered Meal Suggestions: Although meal planning apps exist, none offer real-time, AI-powered suggestions based on available ingredients or highly personalized inputs. 
 Aesthetic and Usability: Many platforms focus on functionality but lack a creative or aesthetic design that enhances user experience, which is something Foodology emphasizes through its unique theme. Foodology aims to address these limitations by offering a more personalized, condition-specific approach to meal planning and nutrition management. With AI-powered meal suggestions, detailed diet plans for medical conditions, and community-driven features, it provides a unique experience that existing platforms have yet to offer. Proposed System Foodology aims to revolutionize the approach to nutrition and diet management by integrating a range of innovative features tailored specifically to the needs of users with various health conditions. The proposed system focuses on personalization, community engagement, and user-friendly interfaces to create a comprehensive platform for nutritional education and support. Below are the key components and 
 
-# features of the proposed system
+# Features of the proposed system
 
 # Personalized Diet Plan Generator:
 **Functionality:** Users can input personal details, such as age, weight, height, medical conditions, and dietary preferences. The system will calculate their daily calorie and nutrient needs and generate a personalized meal plan that aligns with their health goals. 
